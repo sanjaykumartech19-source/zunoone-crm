@@ -1,0 +1,338 @@
+<title>Zuno One — Shared Inbox</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&family=Inter:wght@400;450;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+
+<link rel="icon" href="logo.jpg">
+<link rel="stylesheet" href="styles.css">
+<script>try{if(localStorage.zunoTheme==='light')document.documentElement.setAttribute('data-theme','light');}catch(e){}</script>
+<script src="https://help.zunoone.com/widget.js" async></script>
+
+<div class="promo-bar" id="promoBar">⏳ Limited time · Project Management is <b>free on select plans</b> — <a href="pricing.html">Check plans →</a><button class="x" aria-label="Dismiss" onclick="this.parentElement.classList.add('hide')">×</button></div>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="index.html"><span class="mk"></span>Zuno One</a>
+    <nav class="links">
+      <div class="mega" data-mega><button type="button">Our Products <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m6 9 6 6 6-6"/></svg></button><div class="megapanel" style="--cols:3"><div><h5>Customer</h5><a href="features.html">Shared Inbox & CRM</a><a href="capture-website.html">Website Chat Widget</a><a href="ai-agents.html">AI Agents</a></div><div><h5>People & HR · soon</h5><a href="platform.html">HR Management</a><a href="platform.html">Recruitment</a><a href="platform.html">Payroll (WPS)</a><a href="platform.html">Shifts & Time Tracking</a><a href="platform.html">Learning & Intranet</a></div><div><h5>Operations</h5><a href="project-management.html">Project Management</a><a href="accounting.html">Accounting · soon</a></div><div class="megafeat"><span class="mf-tag">The platform</span><span class="mf-t">One suite for customer, people and finance — on shared data</span><a href="platform.html">Read →</a></div></div></div>
+      <div class="mega" data-mega><button type="button">Solutions <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m6 9 6 6 6-6"/></svg></button><div class="megapanel" style="--cols:4"><div><h5>Capture leads</h5><a href="capture-ads.html">Capture from Ads</a><a href="capture-social.html">Capture from Social</a><a href="capture-website.html">Capture from Website</a><a href="capture-offline.html">Capture from Offline</a></div><div><h5>Convert leads</h5><a href="ai-agents.html">AI Agents<span class="b">AI</span></a><a href="team-inbox.html">Team Inbox</a><a href="qualify-leads.html">Qualify Leads</a><a href="route-leads.html">Route Leads</a><a href="book-appointments.html">Book Appointments</a></div><div><h5>Retain customers</h5><a href="conversational-support.html">Conversational Support</a><a href="promotions.html">Promotions & Newsletters</a><a href="renewal-reminders.html">Renewal Reminders</a><a href="surveys.html">CSAT & NPS Surveys</a></div><div><h5>Scale with Zuno One</h5><a href="what-is-zunoone.html">What is Zuno One?</a><a href="customers.html">Success Stories</a><a href="mobile-app.html">Mobile App</a><a href="whatsapp-calling.html">WhatsApp Calling API</a><a href="integrations.html">Channels & Integrations</a></div><div class="megafeat"><span class="mf-tag">Customer story</span><span class="mf-t">How Northwind cut first-response time to under 4 minutes</span><a href="customers.html">Read →</a></div></div></div>
+      <div class="mega" data-mega><button type="button">Industries <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m6 9 6 6 6-6"/></svg></button><div class="megapanel" style="--cols:3"><div><h5>Commerce</h5><a href="industry-retail.html">Retail & E-commerce</a><a href="industry-travel.html">Travel & Hospitality</a><a href="industry-automotive.html">Automotive</a></div><div><h5>Services</h5><a href="industry-education.html">Education</a><a href="industry-healthcare.html">Healthcare</a><a href="industry-services.html">Professional Services</a></div><div><h5>More</h5><a href="industries.html">All industries</a><a href="features.html">Agencies</a></div><div class="megafeat"><span class="mf-tag">Customer story</span><span class="mf-t">Sport Center Los Naranjos gained 20% more conversions from sales inquiries</span><a href="customers.html">Read →</a></div></div></div>
+      <div class="mega" data-mega><button type="button">Resources <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m6 9 6 6 6-6"/></svg></button><div class="megapanel" style="--cols:3"><div><h5>Learn</h5><a href="#">Blog</a><a href="#">Guides</a><a href="#">Help Center</a><a href="#">API Docs</a></div><div><h5>Product</h5><a href="features.html">Features</a><a href="integrations.html">Integrations</a><a href="#">Changelog</a><a href="#">Status</a></div><div><h5>Company</h5><a href="about.html">About</a><a href="careers.html">Careers</a><a href="contact.html">Contact</a></div></div></div>
+      <a href="pricing.html">Pricing</a>
+      <a href="why-zunoone.html">Why Us</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="right">
+      <button class="themebtn" id="themeBtn" type="button" aria-label="Toggle light theme" title="Toggle light theme">
+        <svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+      <a class="signin" href="https://app.zunoone.com">Login</a>
+      <a class="btn btn-primary btn-sm" href="https://app.zunoone.com">Start free</a>
+      <button class="burger" id="burger" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    </div>
+  </div>
+  <div id="mnav">
+    <div class="m-group"><button type="button">Our Products</button><div class="m-sub"><h5>Customer</h5><a href="features.html">Shared Inbox & CRM</a><a href="capture-website.html">Website Chat Widget</a><a href="ai-agents.html">AI Agents</a><h5>People & HR · soon</h5><a href="platform.html">HR Management</a><a href="platform.html">Recruitment</a><a href="platform.html">Payroll (WPS)</a><a href="platform.html">Shifts & Time Tracking</a><a href="platform.html">Learning & Intranet</a><h5>Operations</h5><a href="project-management.html">Project Management</a><a href="accounting.html">Accounting · soon</a></div></div>
+    <div class="m-group"><button type="button">Solutions</button><div class="m-sub"><h5>Capture leads</h5><a href="capture-ads.html">Capture from Ads</a><a href="capture-social.html">Capture from Social</a><a href="capture-website.html">Capture from Website</a><a href="capture-offline.html">Capture from Offline</a><h5>Convert leads</h5><a href="ai-agents.html">AI Agents</a><a href="team-inbox.html">Team Inbox</a><a href="qualify-leads.html">Qualify Leads</a><a href="route-leads.html">Route Leads</a><a href="book-appointments.html">Book Appointments</a><h5>Retain customers</h5><a href="conversational-support.html">Conversational Support</a><a href="promotions.html">Promotions & Newsletters</a><a href="renewal-reminders.html">Renewal Reminders</a><a href="surveys.html">CSAT & NPS Surveys</a><h5>Scale with Zuno One</h5><a href="what-is-zunoone.html">What is Zuno One?</a><a href="customers.html">Success Stories</a><a href="mobile-app.html">Mobile App</a><a href="whatsapp-calling.html">WhatsApp Calling API</a><a href="integrations.html">Channels & Integrations</a></div></div>
+    <div class="m-group"><button type="button">Industries</button><div class="m-sub"><h5>Commerce</h5><a href="industry-retail.html">Retail & E-commerce</a><a href="industry-travel.html">Travel & Hospitality</a><a href="industry-automotive.html">Automotive</a><h5>Services</h5><a href="industry-education.html">Education</a><a href="industry-healthcare.html">Healthcare</a><a href="industry-services.html">Professional Services</a><h5>More</h5><a href="industries.html">All industries</a><a href="features.html">Agencies</a></div></div>
+    <div class="m-group"><button type="button">Resources</button><div class="m-sub"><h5>Learn</h5><a href="#">Blog</a><a href="#">Guides</a><a href="#">Help Center</a><a href="#">API Docs</a><h5>Product</h5><a href="features.html">Features</a><a href="integrations.html">Integrations</a><a href="#">Changelog</a><a href="#">Status</a><h5>Company</h5><a href="about.html">About</a><a href="careers.html">Careers</a><a href="contact.html">Contact</a></div></div>
+    <a href="pricing.html">Pricing</a>
+    <a href="why-zunoone.html">Why Us</a>
+    <a href="contact.html">Contact</a>
+    <a class="btn btn-primary" href="https://app.zunoone.com">Start free</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="aurora"><i></i><i></i><i></i></div>
+  <div class="grid-lines"></div>
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">The Zuno One inbox</span>
+      <h1>Every customer conversation, one shared inbox.</h1>
+      <p class="sub">Zuno One pulls WhatsApp, Instagram, Messenger and Gmail into a single place your whole team works from — with routing, automations and analytics built in.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="https://app.zunoone.com">Start free
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-ghost" href="about.html#contact">Book a demo</a>
+      </div>
+      <p class="micro"><b>Free plan</b> · no card required · set up in minutes</p>
+    </div>
+
+    <div class="panel" aria-hidden="true">
+      <div class="bar"><span></span><span></span><span></span><span class="t">Team inbox · all channels</span></div>
+      <div class="rows" id="rows">
+        <div class="row sel" style="animation-delay:.05s">
+          <div class="av" style="background:#8fd5f2">MC</div>
+          <div class="mid"><div class="nm"><span class="ch" style="background:var(--wa)"></span>Maya Chen</div><div class="pv">Perfect, I'll send the invoice over now</div></div>
+          <div class="tm">2m</div>
+        </div>
+        <div class="row" style="animation-delay:.18s">
+          <div class="av" style="background:#f0a6c2">LF</div>
+          <div class="mid"><div class="nm"><span class="ch" style="background:var(--ig)"></span>@lucasfit</div><div class="pv">do you ship to Portugal?</div></div>
+          <div class="tm">5m</div>
+        </div>
+        <div class="row" style="animation-delay:.31s">
+          <div class="av" style="background:#9ec6ff">AB</div>
+          <div class="mid"><div class="nm"><span class="ch" style="background:var(--ms)"></span>Aria Blake</div><div class="pv">thanks for the quick help earlier!</div></div>
+          <div class="tm">12m</div>
+        </div>
+        <div class="row" style="animation-delay:.44s">
+          <div class="av" style="background:#f2b3a9">NW</div>
+          <div class="mid"><div class="nm"><span class="ch" style="background:var(--gm)"></span>procurement@northwind</div><div class="pv">Re: Renewal quote for 25 seats</div></div>
+          <div class="tm">41m</div>
+        </div>
+        <div class="row" style="animation-delay:.57s">
+          <div class="av" style="background:#8fd5f2">TI</div>
+          <div class="mid"><div class="nm"><span class="ch" style="background:var(--wa)"></span>Tom Iverson</div><div class="pv"><span class="typing"><i></i><i></i><i></i></span> typing…</div></div>
+          <div class="tm">now</div>
+        </div>
+      </div>
+      <div class="reply">
+        <div class="box">Hi Maya — invoice sent, due in 14 days<span class="cur"></span></div>
+        <div class="send"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="trust">
+  <div class="wrap">
+    <div class="lbl">Trusted by 1,400+ teams</div>
+    <div class="marquee">
+      <div class="track">
+        <span>NORTHWIND</span><span>Lumen</span><span>FJORD</span><span>Katal</span><span>BrightPay</span><span>Meridian</span><span>Halcyon</span><span>Oakline</span>
+        <span>NORTHWIND</span><span>Lumen</span><span>FJORD</span><span>Katal</span><span>BrightPay</span><span>Meridian</span><span>Halcyon</span><span>Oakline</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="band">
+  <div class="wrap reveal">
+    <span class="eyebrow">Channels</span>
+    <h2 class="sec">One inbox for every channel</h2>
+    <p class="sec-lead">Connect the places your customers already message you. Replies, media and history all land in the same thread. <b>WhatsApp connects in minutes — no Business API application, no approval wait. Scan a QR with the WhatsApp app and you're live.</b></p>
+    <div class="chan">
+      <div class="c"><div class="ic" style="background:var(--wa)"><svg viewBox="0 0 24 24" fill="#02121b"><path d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.74.46 3.44 1.32 4.94L2 22l5.3-1.38a9.86 9.86 0 0 0 4.73 1.2h.01c5.46 0 9.9-4.44 9.9-9.9 0-2.64-1.03-5.13-2.9-7A9.82 9.82 0 0 0 12.04 2Zm0 1.67c2.2 0 4.27.86 5.83 2.42a8.18 8.18 0 0 1 2.42 5.82c0 4.54-3.7 8.23-8.24 8.23a8.2 8.2 0 0 1-4.18-1.14l-.3-.18-3.1.81.83-3.02-.2-.31a8.16 8.16 0 0 1-1.25-4.39c0-4.54 3.7-8.23 8.24-8.23Zm-3.2 4.42c-.15 0-.4.06-.6.28-.21.22-.8.78-.8 1.9s.82 2.2.93 2.36c.12.15 1.6 2.44 3.9 3.42.54.24.96.38 1.29.48.54.17 1.04.15 1.43.09.43-.06 1.34-.55 1.53-1.08.19-.53.19-.98.13-1.08-.06-.09-.21-.15-.44-.26-.23-.12-1.35-.67-1.56-.74-.21-.08-.36-.12-.51.11-.15.23-.59.74-.72.9-.13.15-.26.17-.49.06-.23-.12-.98-.36-1.86-1.15-.69-.61-1.15-1.37-1.28-1.6-.13-.23-.02-.35.1-.47.1-.1.23-.26.35-.4.11-.13.15-.22.22-.37.08-.15.04-.28-.02-.4-.06-.11-.51-1.24-.71-1.7-.18-.44-.37-.38-.51-.39l-.43-.01Z"/></svg></div><h3>WhatsApp</h3><p>No Business API, no waiting for approval — scan a QR and go. Real phone number, media, delivery status and full history.</p></div>
+      <div class="c"><div class="ic" style="background:var(--ig)"><svg viewBox="0 0 24 24" fill="#02121b"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16ZM12 0C8.74 0 8.33.01 7.05.07c-1.28.06-2.15.26-2.91.56a5.88 5.88 0 0 0-2.13 1.38A5.88 5.88 0 0 0 .63 4.14c-.3.76-.5 1.63-.56 2.91C.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.28.26 2.15.56 2.91.3.79.72 1.46 1.38 2.13a5.88 5.88 0 0 0 2.13 1.38c.76.3 1.63.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.28-.06 2.15-.26 2.91-.56a6.13 6.13 0 0 0 3.51-3.51c.3-.76.5-1.63.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.28-.26-2.15-.56-2.91a5.88 5.88 0 0 0-1.38-2.13A5.88 5.88 0 0 0 19.86.63c-.76-.3-1.63-.5-2.91-.56C15.67.01 15.26 0 12 0Zm0 5.84A6.16 6.16 0 1 0 18.16 12 6.16 6.16 0 0 0 12 5.84ZM12 16a4 4 0 1 1 4-4 4 4 0 0 1-4 4Zm6.4-10.4a1.44 1.44 0 1 0 1.44 1.44A1.44 1.44 0 0 0 18.4 5.6Z"/></svg></div><h3>Instagram</h3><p>Instagram DMs through your linked Facebook Page and a Meta app token.</p></div>
+      <div class="c"><div class="ic" style="background:var(--ms)"><svg viewBox="0 0 24 24" fill="#02121b"><path d="M12 2C6.2 2 2 6.32 2 11.7c0 2.83 1.16 5.28 3.05 6.98.16.14.25.34.26.55l.05 1.73c.02.55.59.91 1.1.69l1.93-.85c.16-.07.34-.09.5-.04 1.02.28 2.11.44 3.05.44 5.8 0 10-4.32 10-9.7C22 6.32 17.8 2 12 2Zm6.02 7.44-2.94 4.66c-.47.74-1.47.93-2.18.4l-2.34-1.75a.6.6 0 0 0-.72 0l-3.16 2.4c-.42.32-.97-.18-.68-.62l2.94-4.66c.47-.74 1.47-.92 2.18-.4l2.34 1.76a.6.6 0 0 0 .72 0l3.16-2.4c.42-.32.97.18.68.62Z"/></svg></div><h3>Messenger</h3><p>Facebook Page messages via the Meta Graph API, routed to the right agent.</p></div>
+      <div class="c"><div class="ic" style="background:var(--gm)"><svg viewBox="0 0 24 24" fill="#02121b"><path d="M3 5.5A1.5 1.5 0 0 1 4.5 4h.4L12 9.9 19.1 4h.4A1.5 1.5 0 0 1 21 5.5v13a1.5 1.5 0 0 1-1.5 1.5H17V10.2l-5 4.1-5-4.1V20H4.5A1.5 1.5 0 0 1 3 18.5v-13Z"/></svg></div><h3>Email</h3><p>Gmail with OAuth, or Outlook / Microsoft 365, Yahoo and any IMAP&nbsp;/&nbsp;SMTP mailbox with a login. Reply as threaded email.</p></div>
+      <div class="c"><div class="ic" style="background:#010101"><svg viewBox="0 0 24 24" fill="#ffffff"><path d="M16.5 2c.28 2.2 1.5 3.5 3.63 3.64v2.5c-1.24.12-2.32-.28-3.58-1.04v6.02c0 4.42-3.36 6.98-7.06 5.62A5.6 5.6 0 0 1 6 7.9v2.66a3.07 3.07 0 0 0 1.9 5.6 3.14 3.14 0 0 0 3.2-3.19V2h4.4Z"/></svg></div><h3>TikTok <span class="soon-tag">Your own API access</span></h3><p>Connect a TikTok Business account that has Messaging API access from TikTok — DMs and comment replies route into the same shared queue.</p></div>
+      <div class="c"><div class="ic" style="background:#fffc00"><svg viewBox="0 0 24 24" fill="#02121b"><path d="M12.02 3c2.53.01 4.25 1.86 4.39 4.42.05.79-.03 1.42.05 1.66.11.35.79.46 1.22.31.53-.19 1.2.05 1.23.61.02.44-.44.76-1.32 1.05-.35.11-.96.3-.96.78 0 .26.17.61.53 1.05.79.96 1.84 1.49 2.45 1.66.44.13.53.48.44.79-.17.53-1.23.79-2.01.87-.35.04-.44.44-.53.79-.05.24-.13.53-.44.53-.44 0-.88-.31-1.66-.31-.79 0-1.4.61-2.98.61s-2.19-.61-2.98-.61c-.79 0-1.22.31-1.66.31-.31 0-.4-.29-.44-.53-.09-.35-.18-.75-.53-.79-.79-.09-1.84-.35-2.01-.87-.09-.31 0-.66.44-.79.61-.17 1.66-.7 2.45-1.66.36-.44.53-.79.53-1.05 0-.48-.61-.67-.96-.78-.88-.29-1.34-.61-1.32-1.05.03-.56.7-.8 1.23-.61.43.15 1.11.04 1.22-.31.08-.24 0-.87.05-1.66C7.77 4.86 9.49 3.01 12.02 3Z"/></svg></div><h3>Snapchat <span class="soon-tag">Your own API access</span></h3><p>Connect a Snapchat business profile that has messaging access from Snap — conversations handled alongside every other channel.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="band-tight">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow">How it works</span>
+      <h2 class="sec">Built for how support teams actually work</h2>
+    </div>
+
+    <div class="frow reveal">
+      <div>
+        <h3>Send the right chats to the right people</h3>
+        <p>Round-robin by team, or draw a simple grid of which channels each agent handles. Agents only see their queue — nothing else.</p>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>Channel × agent assignment matrix</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>Round-robin with availability</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>Restricted view for agents</li>
+        </ul>
+      </div>
+      <div class="art">
+        <table class="mx">
+          <thead><tr><th>Agent</th><th>WA</th><th>IG</th><th>MSG</th><th>Mail</th></tr></thead>
+          <tbody>
+            <tr><td>Priya</td><td><span class="tk on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4"><path d="M20 6 9 17l-5-5"/></svg></span></td><td><span class="tk on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4"><path d="M20 6 9 17l-5-5"/></svg></span></td><td><span class="tk"></span></td><td><span class="tk"></span></td></tr>
+            <tr><td>Sam</td><td><span class="tk"></span></td><td><span class="tk on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4"><path d="M20 6 9 17l-5-5"/></svg></span></td><td><span class="tk on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4"><path d="M20 6 9 17l-5-5"/></svg></span></td><td><span class="tk"></span></td></tr>
+            <tr><td>Dana</td><td><span class="tk"></span></td><td><span class="tk"></span></td><td><span class="tk"></span></td><td><span class="tk on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4"><path d="M20 6 9 17l-5-5"/></svg></span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="frow rev reveal">
+      <div>
+        <h3>Put the repetitive work on autopilot</h3>
+        <p>Build rules from plain triggers, conditions and actions. Auto-reply after hours, tag by keyword, escalate when nobody answers, or call a webhook.</p>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>Triggers: new message, keyword, no reply</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>Actions: reply, assign, tag, set status, webhook</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>AI reply + hand-off on keywords</li>
+        </ul>
+      </div>
+      <div class="art">
+        <div class="flow">
+          <div class="step"><span class="k">When</span><span class="pill">message received</span></div>
+          <div class="arrow"></div>
+          <div class="step"><span class="k">And</span><span class="pill">text contains “refund”</span></div>
+          <div class="arrow"></div>
+          <div class="step"><span class="k">Do</span><span class="pill a">add label · Billing</span></div>
+          <div class="step"><span class="k"></span><span class="pill a">assign · Billing team</span></div>
+          <div class="step"><span class="k"></span><span class="pill a">reply · “We're on it 👋”</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="frow reveal">
+      <div>
+        <h3>See what's actually happening</h3>
+        <p>Live numbers straight from your conversations — volume in and out, per agent, per channel, day by day. No setup, no tag hygiene.</p>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>Open conversations & response times</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>Messages in / out by agent</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>Channel breakdown</li>
+        </ul>
+      </div>
+      <div class="art">
+        <div class="tiles">
+          <div class="tl"><div class="n">469</div><div class="l">Open</div></div>
+          <div class="tl"><div class="n">1,382</div><div class="l">In</div></div>
+          <div class="tl"><div class="n">1,504</div><div class="l">Out</div></div>
+        </div>
+        <div class="chart">
+          <div class="bar" style="--h:40%" data-d="M"></div>
+          <div class="bar" style="--h:62%" data-d="T"></div>
+          <div class="bar" style="--h:52%" data-d="W"></div>
+          <div class="bar" style="--h:78%" data-d="T"></div>
+          <div class="bar" style="--h:95%" data-d="F"></div>
+          <div class="bar" style="--h:48%" data-d="S"></div>
+          <div class="bar" style="--h:33%" data-d="S"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap reveal">
+    <span class="eyebrow">Security &amp; privacy</span>
+    <h2 class="sec">Your conversations stay yours</h2>
+    <p class="sec-lead">We built the storage layer so a stolen disk, a leaked backup or a curious engineer can't read your customers' messages.</p>
+    <div class="chan" style="grid-template-columns:repeat(2,1fr)">
+      <div class="c"><div class="ic" style="background:var(--bg-4);border:1px solid var(--line);color:var(--sky)"><span class="micon"><svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></span></div><h3>Encrypted at rest</h3><p>WhatsApp history and website chats are sealed with AES‑256 using a key unique to your workspace. On disk and in backups they're unreadable ciphertext.</p></div>
+      <div class="c"><div class="ic" style="background:var(--bg-4);border:1px solid var(--line);color:var(--sky)"><span class="micon"><svg viewBox="0 0 24 24"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg></span></div><h3>Nothing warehoused</h3><p>Instagram, Messenger and Gmail messages are pulled live from Meta and Google when you open a thread — never copied onto our servers.</p></div>
+      <div class="c"><div class="ic" style="background:var(--bg-4);border:1px solid var(--line);color:var(--sky)"><span class="micon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span></div><h3>Never sold, never trained on</h3><p>We don't sell your data and we don't use your conversations to train AI models. Your workspace data is isolated from every other tenant.</p></div>
+      <div class="c"><div class="ic" style="background:var(--bg-4);border:1px solid var(--line);color:var(--sky)"><span class="micon"><svg viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></span></div><h3>Every action is attributed</h3><p>Agents only see the queue assigned to them. Outgoing messages carry the agent's name, and deletions record who deleted what.</p></div>
+    </div>
+    <p class="price-foot" style="margin-top:22px"><a href="security.html">Read the full security overview →</a></p>
+  </div>
+</section>
+
+<section class="band-tight">
+  <div class="wrap reveal">
+    <span class="eyebrow">New · Operations</span>
+    <h2 class="sec">Project management, built into the inbox</h2>
+    <p class="sec-lead">The deal you close in chat becomes a delivery plan — no re-keying, same customers and team. Six ways to see the work, real task depth, and a portfolio dashboard across every project.</p>
+    <div class="chan" style="grid-template-columns:repeat(3,1fr)">
+      <div class="c"><div class="ic" style="background:var(--bg-4);border:1px solid var(--line);color:var(--sky)"><span class="micon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="18" rx="1"/><rect x="14" y="3" width="7" height="11" rx="1"/></svg></span></div><h3>Six views, one dataset</h3><p>Board, List, Table, Calendar, Timeline (Gantt) and a per-project Dashboard — drag-and-drop with live sync, task ids like WEB-42 on every card.</p></div>
+      <div class="c"><div class="ic" style="background:var(--bg-4);border:1px solid var(--line);color:var(--sky)"><span class="micon"><svg viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></span></div><h3>Real task depth</h3><p>Subtasks with roll-up progress, block-on-complete dependencies, custom fields, sprints, time tracking, recurring tasks and milestones.</p></div>
+      <div class="c"><div class="ic" style="background:var(--bg-4);border:1px solid var(--line);color:var(--sky)"><span class="micon"><svg viewBox="0 0 24 24"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/></svg></span></div><h3>Portfolio &amp; access control</h3><p>An Overview dashboard across all projects — KPIs, charts, deadlines, workload. Give each teammate a tick-box list of the projects and actions they get.</p></div>
+    </div>
+    <p class="price-foot" style="margin-top:22px"><a href="project-management.html">See everything in Project Management →</a> &nbsp;·&nbsp; Included on <b>Advanced</b>, and on <b>Growth</b> with annual billing.</p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap reveal">
+    <div class="nums">
+      <div><div class="v"><span data-count="18" data-suffix="M+">18M+</span></div><div class="k">conversations handled</div></div>
+      <div><div class="v"><span data-count="1400" data-suffix="+">1,400+</span></div><div class="k">teams on Zuno One</div></div>
+      <div><div class="v"><span data-count="40" data-suffix="">40</span></div><div class="k">countries</div></div>
+      <div><div class="v">99.98%</div><div class="k">uptime, last 12 mo</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="band-tight">
+  <div class="wrap quote reveal">
+    <p>“We replaced three tools and a spreadsheet with Zuno One. First-response time went from a few hours to under four minutes.”</p>
+    <div class="who"><span class="av">PN</span> Priya Nair · Head of Support, Northwind</div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap reveal">
+    <span class="eyebrow">Pricing</span>
+    <h2 class="sec">Pricing that scales with your team</h2>
+    <p class="sec-lead">Start free. Move up when you need more seats, contacts or AI. No per-conversation fees.</p>
+    <div class="price">
+      <div class="p">
+        <div class="nm">Free</div><div class="amt">$0 <s>/mo</s></div><div class="d">For trying Zuno One out</div>
+        <div class="ln"></div>
+        <ul><li><b>2</b> seats</li><li><b>100</b> contacts</li><li><b>200</b> AI credits / mo</li><li>1 WhatsApp channel</li></ul>
+      </div>
+      <div class="p">
+        <div class="nm">Starter</div><div class="amt">$79 <s>/mo</s></div><div class="d">For small teams</div>
+        <div class="ln"></div>
+        <ul><li><b>5</b> seats</li><li><b>1,000</b> contacts</li><li><b>5,000</b> AI credits</li><li>All channels · labels · automations</li></ul>
+      </div>
+      <div class="p pop">
+        <span class="tag">Most popular</span>
+        <div class="nm">Growth</div><div class="amt">$159 <s>/mo</s></div><div class="d">For growing support teams</div>
+        <div class="ln"></div>
+        <ul><li><b>10</b> seats</li><li><b>5,000</b> contacts</li><li><b>20,000</b> AI credits</li><li>Routing · broadcasts · reports · API</li></ul>
+      </div>
+      <div class="p">
+        <div class="nm">Advanced</div><div class="amt">$299 <s>/mo</s></div><div class="d">For agencies & high volume</div>
+        <div class="ln"></div>
+        <ul><li><b>25</b> seats</li><li><b>25,000</b> contacts</li><li><b>40,000</b> AI credits</li><li>Multi-workspace · SSO · priority support</li></ul>
+      </div>
+    </div>
+    <p class="price-foot">Every plan includes the full shared inbox. <a href="pricing.html">See the full comparison →</a></p>
+  </div>
+</section>
+
+<section class="band-tight">
+  <div class="wrap reveal">
+    <span class="eyebrow">The platform</span>
+    <h2 class="sec">More than an inbox — the Zuno One platform</h2>
+    <p class="sec-lead">The shared inbox and CRM are live today. A full people &amp; HR suite plus operations tools are on the way — all on the same contacts, team and data.</p>
+    <div class="chan" style="grid-template-columns:repeat(5,1fr)">
+      <div class="c"><div class="ic" style="background:var(--bg-4);border:1px solid var(--line);color:var(--sky)"><span class="micon"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span></div><h3>Shared Inbox &amp; CRM</h3><p style="color:var(--good)">Available now</p></div>
+      <div class="c"><div class="ic" style="background:var(--bg-4);border:1px solid var(--line);color:var(--sky)"><span class="micon"><svg viewBox="0 0 24 24"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/></svg></span></div><h3>Project Management</h3><p style="color:var(--good)">Available now</p></div>
+      <div class="c"><div class="ic" style="background:var(--bg-4);border:1px solid var(--line);color:var(--sky)"><span class="micon"><svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span></div><h3>HR, Recruitment &amp; Payroll (WPS)</h3><p>Coming soon</p></div>
+      <div class="c"><div class="ic" style="background:var(--bg-4);border:1px solid var(--line);color:var(--sky)"><span class="micon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 14"/></svg></span></div><h3>Shifts, Learning &amp; Intranet</h3><p>Coming soon</p></div>
+      <div class="c"><div class="ic" style="background:var(--bg-4);border:1px solid var(--line);color:var(--sky)"><span class="micon"><svg viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14"/></svg></span></div><h3>Accounting</h3><p>Coming soon</p></div>
+    </div>
+    <p class="price-foot" style="margin-top:22px"><a href="platform.html">See the full platform roadmap →</a></p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap reveal">
+    <div class="ctaband">
+      <span class="eyebrow" style="justify-content:center">Get started</span>
+      <h2>Bring every channel into one inbox</h2>
+      <div class="cta">
+        <a class="btn btn-primary" href="https://app.zunoone.com">Start free
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-ghost" href="about.html#contact">Book a demo</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div><a class="brand" href="index.html"><span class="mk"></span>Zuno One</a><p class="tag">Every customer conversation, one shared inbox.</p>
+        <div class="fsocial">
+          <a href="https://instagram.com/zuno_one" target="_blank" rel="noopener" aria-label="Zuno One on Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="https://facebook.com/zuno_one" target="_blank" rel="noopener" aria-label="Zuno One on Facebook"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M14 9h3l.5-3H14V4.5c0-.8.3-1.5 1.5-1.5H17V.2C16.6.1 15.5 0 14.3 0 11.7 0 10 1.6 10 4.3V6H7v3h3v9h4V9z"/></svg></a>
+        </div>
+      </div>
+      <div class="fcol"><h4>Solutions</h4><a href="team-inbox.html">Team Inbox</a><a href="ai-agents.html">AI Agents</a><a href="route-leads.html">Route Leads</a><a href="promotions.html">Broadcasts</a><a href="conversational-support.html">Support</a></div>
+      <div class="fcol"><h4>Product</h4><a href="features.html">Features</a><a href="pricing.html">Pricing</a><a href="integrations.html">Integrations</a><a href="https://app.zunoone.com">Login</a></div>
+      <div class="fcol"><h4>Company</h4><a href="about.html">About</a><a href="why-zunoone.html">Why Us</a><a href="customers.html">Customers</a><a href="careers.html">Careers</a><a href="contact.html">Contact</a></div>
+      <div class="fcol"><h4>Legal</h4><a href="security.html">Security</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a><a href="refunds.html">Refund &amp; Cancellation</a><a href="dpa.html">DPA</a></div>
+    </div>
+    <div class="fbot"><span>© <span id="yr">2025</span> Zuno One</span><span>Built for teams in 40 countries</span></div>
+  </div>
+</footer>
+
+<script src="app.js" defer></script>

@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+
+# Runtime state: WhatsApp login sessions, chat stores, encryption key
+sessions/
+.wwebjs_cache/
+.wwebjs_auth/
+
+# Logs
+*.log
+server.log
+
+# User uploads
+uploads/*
+!uploads/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

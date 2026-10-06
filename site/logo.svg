@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="96" height="96" role="img" aria-label="Zuno One">
+  <g fill="none" stroke="#2b8bff" stroke-linecap="round" stroke-linejoin="round">
+    <!-- outer Z: thick blue stroke, then a thin cut-out to make the tube outline -->
+    <path d="M22 31 H74 L28 69 H80" stroke-width="15"/>
+    <!-- leads to the node dots -->
+    <path d="M22 31 H15 M80 69 H87" stroke-width="9"/>
+    <!-- inner Z -->
+    <path d="M38 43 H60 L43 58 H62" stroke-width="8"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 31 H74 L28 69 H80" stroke-width="6"/>
+  </g>
+  <!-- circuit node dots -->
+  <g fill="#2b8bff">
+    <circle cx="15" cy="31" r="6.5"/>
+    <circle cx="74" cy="31" r="6.5"/>
+    <circle cx="28" cy="69" r="6.5"/>
+    <circle cx="87" cy="69" r="6.5"/>
+  </g>
+  <!-- radiating spark lines -->
+  <g stroke="#2b8bff" stroke-width="2.4" stroke-linecap="round">
+    <path d="M40 47 32 42 M40 50 30 49 M40 53 33 57"/>
+    <path d="M56 55 65 51 M56 58 67 59 M56 61 64 66"/>
+  </g>
+</svg>
